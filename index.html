@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./Css/styles.css">
 </head>
 <body>
@@ -35,9 +39,9 @@
                 <li>31 factories around the world</li>
             </ul>
 
+            <img src="./images/ketchup-l-05 1.png" alt="ketchup">
+
             <ul class="li">
-                <!-- <li><img src="./images/ketchup-l-05 1.jpg" alt="ketchup-l-05"></li> -->
-                <li><img src="./images/ketchup-l-05-1.svg" alt="ketchup-l-05"></li>
                 <li>ITALY TOMATOES</li>
                 <li>FRESH GARLIC</li>
                 <li>WHITE WINE</li>
@@ -88,6 +92,125 @@
       <button type="button">Buy now</button>
     </section>
     <!-- /section sauce -->
+    <section class="card-set wrapper">
+      <p class="excerpt">SLIDER</p>
+
+      <div class="image-slider swiper">
+        <div class="image-slider-wrapper swiper-wrapper">
+          <div class="image-slider-slide swiper-slide">
+            <div class="image-slider-image">
+              <img class="position" src="./images/tomato1.jpg" alt="foto" />
+            </div>
+          </div>
+          <div class="image-slider-slide swiper-slide">
+            <div class="image-slider-image">
+              <img class="position" src="./images/tomato2.jpg" alt="foto" />
+            </div>
+          </div>
+          <div class="image-slider-slide swiper-slide">
+            <div class="image-slider-image">
+              <img class="position" src="./images/tomato3.jpg" alt="foto" />
+            </div>
+          </div>
+
+          <div class="image-slider-slide swiper-slide">
+            <div class="image-slider-image">
+              <video
+                width="465"
+                height="450"
+                src="./images/heinz-tomato-growing3.mp4"
+                controls
+              ></video>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <div class="box indigo">
+      <video
+        width="465"
+        height="290"
+        src="./images/heinz-tomato-ketchup _grown.mp4"
+        controls
+      ></video>
+      <p class="text-block1 color-text-block1">Bell pepper pasta</p>
+    </div>
+    <div class="box amber">
+      <video
+        width="465"
+        height="290"
+        src="./images/heinz-ketchup1.mp4"
+        controls
+      ></video>
+      <p class="text-block1 color-text-block1">Tomato paste</p>
+    </div>
+  </div>
+
+     <!--Підвал сторінки-->
+     <footer>
+      <a href="">
+        <img src="./images/Vector.png" alt="Logo" />
+        <p>CUCINA</p>
+      </a>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Store</a></li>
+        <li><a href="">Recipes</a></li>
+        <li><a href="">Gallery</a></li>
+      </ul>
+      <address>
+        <ul>
+          <li>
+            <a href="">
+              <img src="./images/Location.png" alt="location" />
+            </a>
+          </li>
+
+          <li>
+            <a href="">Elvia Elviaveien 1, 1234 Oslo</a>
+          </li>
+          <li>
+            <a href="">
+              <img src="./images/email.png" alt="email" />
+            </a>
+          </li>
+          <li>
+            <a href="mailto:willie.jennings@example.com"
+              >willie.jennings@example.com</a
+            >
+          </li>
+        </ul>
+      </address>
+      <ul>
+        <li>
+          <a href=""> <img src="./images/Telegramm.png" alt="Telegramm" /></a>
+        </li>
+        <li>
+          <a href=""> <img src="./images/Instagramm.png" alt="Instagramm" /></a>
+        </li>
+        <li>
+          <a href=""> <img src="./images/Yutube.png" alt="Yutube" /></a>
+        </li>
+        <li>
+          <a href=""> <img src="./images/Twitter.png" alt="Twitter" /></a>
+        </li>
+      </ul>
+      <p>
+        By using this website, you agree to the
+        <span> <a href="">Terms of Service</a></span> and
+        <span> <a href="">Privacy Policy</a></span>
+      </p>
+
+    </footer>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="./script.js"></script>
 </body>
 </html>
