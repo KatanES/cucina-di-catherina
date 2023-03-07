@@ -1,199 +1,230 @@
-
-
-a{
-    text-decoration: none;
+:root {
+  --primary-text-color: #f3f3f3;
+  --primary-header-color: #2e2f42;
+  --pressed-state-color: #4d5ae5;
+  --primary-background-color: #100f0f;
 }
 
-ul,ol {
-    list-style: none;
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
 }
 
-img{
-    vertical-align: top;
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-weight: inherit;
-    font-size: inherit;
+.container {
+  width: 1110px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-body{
-    color: #ffff;
-    line-height: 1;
-    font-size: 14px;
-    background-color: #333;
-    font-family: Arial, Helvetica, sans-serif;
+a {
+  text-decoration: none;
 }
 
-.wrapper{
-    padding: 30px;
-    min-height: 100%;
+img {
+  vertical-align: top;
 }
 
-.title{
-    font-size: 30px;
-    font-weight: 700;
-    color: #fff;
-    margin: 0 0 30px 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
 }
 
-.block{
-    display: flex;
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--primary-text-color);
 }
 
-.block-side{
-    flex: 0 0 300px;
-    background-color: #77608d;
+button {
+  display: inline-block;
+  border-radius: 16px;
+  border: 1px solid transparent;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  color: var(--primary-text-color);
+  background-color: rgba(188, 26, 26, 0.2);
+  text-decoration: none;
+  text-align: center;
 }
 
-.block-body{
-    padding: 0 0 0 30px;
-    flex: 1 1 auto;
-    max-width: 0;
+.wrapper {
+  padding: 30px;
+  min-height: 100%;
 }
 
-.image-slider{
-    padding: 30px 0 70px 0;
-} 
-
-.swiper-container{
-
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 30px 0;
 }
 
-.image-slider-wrapper{
-
+.block {
+  display: flex;
 }
 
-.image-slider-slide{
-
-} 
-
-.swiper-slide{
-
+.block-side {
+  flex: 0 0 300px;
+  background-color: #77608d;
 }
 
-.image-slider-image{
-    text-align: center;
+.block-body {
+  padding: 0 0 0 30px;
+  flex: 1 1 auto;
+  max-width: 0;
 }
 
-.image-slider-image  {
-    max-width: 100%;
+.image-slider {
+  padding: 30px 0 70px 0;
+}
+
+.swiper-container {
+}
+
+.image-slider-wrapper {
+}
+
+.image-slider-slide {
+}
+
+.swiper-slide {
+}
+
+.image-slider-image {
+  text-align: center;
+}
+
+.image-slider-image {
+  max-width: 100%;
 }
 
 /* тренинг */
-.block-nav , .block-footer{
-    /* Adds an inner padding */
-    padding: 15px;
+.block-nav,
+.block-footer {
+  /* Adds an inner padding */
+  padding: 15px;
 
-    /* Sets outer margins */
-    margin: 30px 10px 10px 10px;
+  /* Sets outer margins */
+  margin: 30px 10px 10px 10px;
 }
 
 /* CONTAINER */
 .container {
-    width: 1170px;
-    padding-left: 15px;
-    padding-right: 15px;
-  
-    margin-left: auto;
-    margin-right: auto;
-  }
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
 
-  /* CARD SET */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* CARD SET */
 .card-set {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-  
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: calc(-1 * var(--card-set-gap));
-    margin-top: calc(-1 * var(--card-set-gap));
-  }
+  padding: 0;
+  margin: 0;
+  list-style: none;
 
-  /* заменв на CARD SET */
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * var(--card-set-gap));
+  margin-top: calc(-1 * var(--card-set-gap));
+}
+
+/* заменв на CARD SET */
 .excerpt-section {
-    /* Sets the border */
-    border: 2px dashed #2196F3;
- 
-    /* Adds an inner padding */
-    padding: 15px;
-  
-    /* Sets outer margins */
-    margin: 10px;
-    padding: 15px 0 150px 0;    
-    height: 500px;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    
+  /* Sets the border */
+  border: 2px dashed #2196f3;
+
+  /* Adds an inner padding */
+  padding: 15px;
+
+  /* Sets outer margins */
+  margin: 10px;
+  padding: 15px 0 150px 0;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }
 
 .excerpt {
-        /* Sets the border */
-    border: 2px dashed #2196F3;
-  
-    /* Adds an inner padding */
-    padding: 15px;
+  /* Sets the border */
+  border: 2px dashed #2196f3;
 
-    /* Sets outer margins */
-    margin: 30px 10px 10px 10px;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    
-    color: #fff;
-    
+  /* Adds an inner padding */
+  padding: 15px;
+
+  /* Sets outer margins */
+  margin: 30px 10px 10px 10px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+
+  color: #fff;
 }
 
-
-
 .position {
-/* Sets the border */
-border: 2px dashed #2196F3;
-  
-/* Adds an inner padding */
-padding: 15px;
+  /* Sets the border */
+  border: 2px dashed #2196f3;
 
-/* Sets outer margins */
-margin: auto;
-height: 450px;
+  /* Adds an inner padding */
+  padding: 15px;
+
+  /* Sets outer margins */
+  margin: auto;
+  height: 450px;
 }
 
 .block1 {
-    width: 100%;
-    height: 100px;    
-    border: 2px dashed #2196F3;
+  width: 100%;
+  height: 100px;
+  border: 2px dashed #2196f3;
 }
 
 .box {
-    width: 40%;
-    height: 300px;
-     /* Adds an inner padding */
-     padding: 15px;
-      
-     /* Sets outer margins */
-     margin: 10px 10px 20px 30px;
-    display:  inline-block;
-  
-  }
+  width: 40%;
+  height: 300px;
+  /* Adds an inner padding */
+  padding: 15px;
 
+  /* Sets outer margins */
+  margin: 10px 10px 20px 30px;
+  display: inline-block;
+}
 
+.color-text-block1 {
+  color: #fff;
+}
 
+.text-block1 {
+  text-align: center;
+}
 
-  .color-text-block1{
-    color: #fff;
-  }
+.indigo {
+  background-color: #374073;
+}
 
-  .text-block1{
-    text-align: center;
-  }
-
-  .indigo {
-    background-color: #374073;
-  }
-  
-    
-  .amber {
-    background-color: #a98722;
-  }
+.amber {
+  background-color: #a98722;
+}
