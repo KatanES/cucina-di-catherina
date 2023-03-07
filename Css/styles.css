@@ -73,7 +73,7 @@ button {
 }
 
 .header {
-  max-width: 1280px;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   height: 80px;
@@ -152,7 +152,8 @@ button {
 } */
 
 .hero {
-  max-width: 1280px;
+  display: flex;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   height: 720px;
@@ -162,6 +163,42 @@ button {
     rgba(16, 15, 15, 0.9) 39.77%,
     rgba(16, 15, 15, 0.9) 44.21%
   );
+}
+
+.hero-social {
+  display: block;
+  margin-right: auto;
+  padding-top: 192px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-social-item {
+  gap: 34px;
+}
+
+.hero-title {
+  display: block;
+  padding-right: 160px;
+}
+
+.hero-vector-1 {
+}
+
+.main-title {
+  margin: 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 1.2;
+
+  padding-bottom: 24px;
+}
+
+.hero-ketchup {
+  display: inline-block;
+  padding-right: 47px;
 }
 
 .wrapper {
