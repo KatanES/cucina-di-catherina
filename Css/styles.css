@@ -366,24 +366,37 @@ button {
   background-color: #a98722;
 }
 /*footer*/
+.footer {
+  height: 220px;
+  padding: 24px 15px 0px 15px;
+  border-top: 1px solid #F3F3F3;
+  
+
+}
 .container-footer {
   display: block;
-  width: 1170px;
+  box-sizing: content-box;
+  width: 1015px;
   height: 196px;
-  border: 1px solid #F3F3F3;
-  padding: 24px 180px 0px 85px;
+  padding: 0px 15px 0px 15px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 .footer-info {
   display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+ 
 }
 
 .logo-footer {
-  display: inline-block;
+  display: flex;
+  margin-right: 157px;
+  margin-left: 0;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
@@ -391,7 +404,10 @@ button {
   line-height: 24px;
   color: #F3F3F3;
 }
+.logo-tomato {
+  margin-right: 16px;
 
+}
 .menu-list {
   text-decoration: none;
   list-style: none;
@@ -399,7 +415,7 @@ button {
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  margin: 0;
+  margin: 0px 171px 0px 0px;
   gap: 20px;
   width: 60px;
   height: 136px;
@@ -408,6 +424,7 @@ button {
 .menu-item:not(:last-child) {
   margin-bottom: 20px;
 }
+
 .contact-list {
   text-decoration: none;
   list-style: none;
@@ -415,13 +432,23 @@ button {
   width: 253px;
   height: 88px;
   padding: 0;
-  margin: 0;
+  margin: 0px 218px 0px 0px;
 
 
 }
 .contact-item {
-  display: inline;
-  
+  display: flex;
+    
+}
+.contact-item:not(:last-child) {
+  margin-bottom: 45px;
+}
+.contact-link-icon {
+  margin-right: 8px;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+
 }
 .contact-link {
 font-family: 'Inter';
@@ -430,6 +457,8 @@ font-family: 'Inter';
   font-size: 16px;
   line-height: 19px;
   color: #F3F3F3;
+  margin: 0;
+  padding: 0;
   
 }
 
@@ -437,6 +466,7 @@ font-family: 'Inter';
   text-decoration: none;
   list-style: none;
   display: block;
+  flex-direction: column;
   gap: 16px;
   width: 24px;
   height: 144px;
@@ -467,5 +497,11 @@ font-family: 'Inter';
 .by-using {
   display: inline;
   width: 465px;
-  align-items: center;
+  padding: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #979797;
 }
