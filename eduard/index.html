@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400;500;600;700;800&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>swiper</title>
+  </head>
+
+  <body>
+    <!-- тренинг -->
+    <header>
+      <nav class="block-nav ed-container">
+        <!--переходи по сайту-->
+        <a class="ed-text-block-one" href="./index.html">CUCINA</a>
+
+        <ul>
+          <button type="button">Home</button>
+          <button type="button">Store</button>
+          <button type="button">Recipes</button>
+          <button type="button">Gallery</button>
+          <button type="button">Contact us</button>
+        </ul>
+      </nav>
+      <address></address>
+    </header>
+
+    <section class="block1 ed-text-block-one ed-container">
+      <p>
+        The most delicate taste of tomatoes, combined with branded spices and
+        white wine, will make your dish incredibly tasty.
+      </p>
+    </section>
+
+    <!------ video and foto  ------>
+    <!------                 ------>
+    <div class="ed-container ed-block-border">
+      <div class="ed-block ed-block-border">
+        <!-- block video -->
+        <!-- ----------- -->
+        <div class="box ed-block-border">
+          <div class="indigo">
+            <!-- <button type="button" class="ed-button">a</button> -->
+            <a href="#" class="ed-button ed-relative">a</a>
+            <video
+              poster="./images/image-two.jpg"
+              id="v"
+              width="442"
+              height="307"
+              src="./images/heinz-tomato-ketchup _grown.mp4"
+              controls
+            ></video>
+          </div>
+
+          <div class="ed-box-video">
+            <p class="ed-text-block-one ed-block-border">Bell pepper pasta</p>
+          </div>
+        </div>
+        <div class="box ed-block-border">
+          <div class="amber">
+            <a href="#" class="ed-button ed-relative">a</a>
+            <video
+              poster="./images/image-one.jpg"
+              width="442"
+              height="307"
+              src="./images/heinz-ketchup1.mp4"
+              controls
+            ></video>
+          </div>
+          <div class="ed-box-video">
+            <p class="ed-text-block-one ed-block-border">Tomato paste</p>
+          </div>
+        </div>
+      </div>
+      <!-- block wrapper -->
+      <!-- ------------- -->
+      <section class="card-set wrapper ed-container">
+        <p class="excerpt">SLIDER</p>
+
+        <div class="image-slider swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="image-slider-image">
+                <img
+                  class="position"
+                  src="./images/tomato1.jpg"
+                  alt="foto"
+                  width="1038"
+                  height="504"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-slider-image">
+                <img
+                  class="position"
+                  src="./images/tomato2.jpg"
+                  alt="foto"
+                  width="1038"
+                  height="504"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-slider-image">
+                <img
+                  class="position"
+                  src="./images/tomato3.jpg"
+                  alt="foto"
+                  width="1038"
+                  height="504"
+                />
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="image-slider-image">
+                <video
+                  width="1038"
+                  height="504"
+                  src="./images/heinz-tomato-growing3.mp4"
+                  controls
+                ></video>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+    </div>
+
+    <!------ end video and foto  ------>
+    <!------                 ------>
+
+    <footer>
+      <!--footer-->
+      <div class="block-footer ed-container">
+        <a class="ed-text-block-one" href="./index.html">CUCINA</a>
+        <p class="ed-text-block-one">
+          By using this website, you agree to the Terms of Service and Privacy
+          Policy
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
